@@ -1,51 +1,53 @@
-main {
+body{
   font-size: 0;
+
 }
 
-
-.box-parent {
-  margin-top: 90px;
+.mainbox{
   margin-left: auto;
   margin-right: auto;
-  width: 800px;
+  width:800px;
 }
+.center{
+  text-align: center;
+ }
 
-.box {
+.box{
   border: 1px solid black;
-  display: inline-block;
+    display: inline-block;
 }
 
-.box_half {
+
+.top{
   width: 50%;
   height: 200px;
+
 }
 
-.box_third {
+.bottom{ 
+  
   width: 33.33%;
   height: 300px;
+
 }
 
-.black {
-  background-color: black;
-  border: 1px solid;
-}
-
-.green {
+.greenbox{
   background-color: green;
+
 }
 
-.grey {
-  background-color: grey;
-}
-
-.blue {
+.bluebox{
   background-color: blue;
 }
 
-.orange {
-  background-color: orange
+.greybox{
+  background-color: grey;
 }
 
-.centered {
-  text-align: center;
+.blackbox{
+  background-color: black;
+}
+
+.orangebox{
+  background-color: orange;
 }
